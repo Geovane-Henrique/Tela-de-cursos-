@@ -1,0 +1,53 @@
+### get  cursos
+GET http://localhost:3000/cursos/Bacharelado
+### create cursos
+POST http://localhost:3000/create/Bacharelado
+Content-Type: application/json
+
+{  
+  "tipo": "Bacharelado",
+  "nome": "Curso de T",
+  "sobre": "Descrição do curso de teste",
+  "tempo": 4,
+  "valor": 2000,
+  "delete": false
+}
+### update cursos
+PUT http://localhost:3000/update
+Content-Type: application/json
+
+{
+  "id": "cursoId",
+  "tipo": "Bacharelado",
+  "curso": {
+    "nome": "Curso Atualizado",
+    "valor": 2500,
+    "tempo": 5,
+    "sobre": "Descrição atualizada"
+  }
+}
+
+### delete cursos
+DELETE http://localhost:3000/delete
+Content-Type: application/json
+
+{
+    "deletarCurso": ["n1dLtCL6A5geBQiEwQaF"],
+  "tipoDeleteCurso": ["Bacharelado"]
+}
+### login
+POST  http://localhost:3000/login
+Content-Type: application/json 
+
+{
+   "email": "cavalcantigeovane@gmail.com",
+  "password": "BERSERK87g"
+}
+### cadastro
+POST  http://localhost:3000/cadastro
+Content-Type: application/json
+
+{
+    "email": "pera@gmail.com",
+  "password": "@BERSERK87g"
+}
