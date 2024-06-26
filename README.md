@@ -1,3 +1,7 @@
+LINK DO SITE:  appa-20667.web.app
+
+
+
 1(login)- O login/cadastro eles tem algumas mensagens de erro estilizadas, porem caso aparece um erro imprevisto a mensagem aparecera na tela sem estar tratada(todas as mensagens de erro são assim no login, create e update), com um login bem feito a tela vai para o home.
 
 2-(front)- No home na area superior direita tem os (3 pontinho) la fica o C.R.U.D eles são de telas criadas sem o v-dialog e são "componentizadas" por isso, tem os métodos de controle de exibição e emissão de updates sem o refresh para o home, la estão os cursos da forma como o cliente deveria ver e com um filtro de pesquisa.
@@ -20,6 +24,4 @@ as validações aprovarem o curso será atualizado com sucesso.
 _______________________________________________________________________________________________________________________
 
 Obrigado pelas aulas e trilhas.
-# Tela-de-cursos-
-# Tela-de-cursos-
-# Tela-de-cursos-
+
